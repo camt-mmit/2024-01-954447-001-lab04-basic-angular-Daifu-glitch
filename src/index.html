@@ -8,6 +8,17 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <nav>
+      <a routerLink="./hello-world" routerLinkActive="st-active">Hello World</a>
+      <a routerLink="./profile" routerLinkActive="st-active">Profile</a>
+      <a routerLink="./friend" routerLinkActive="st-active">Friend</a>
+      <a routerLink="./status" routerLinkActive="st-active">Status</a>
+    </nav>
+  </div>
+  <router-outlet />
+
   <app-root></app-root>
 </body>
 </html>
