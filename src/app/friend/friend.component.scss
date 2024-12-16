@@ -1,0 +1,33 @@
+table {
+  width: 100%; /* Full width of the page */
+  border-collapse: collapse; /* Ensures no gaps between borders */
+
+  th, td {
+    border: 1px solid black; /* Adds borders to table cells */
+    padding: 10px; /* Adds spacing inside cells */
+    text-align: left; /* Aligns text to the left */
+  }
+
+  th {
+    background-color: #f4f4f4; /* Light background for headers */
+    font-weight: bold;
+  }
+}
+
+
+a {
+  color: blue;
+  text-decoration: none;
+  border: 1px solid blue;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 5px 10px; /* Adds space between links */
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+  width: calc(100% / 3 - 20px); /* Makes links evenly spaced in the row */
+  }
+
+a.st-active {
+  background-color: silver;
+  }

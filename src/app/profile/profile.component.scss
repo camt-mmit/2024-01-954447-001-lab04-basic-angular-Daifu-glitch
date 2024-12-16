@@ -1,0 +1,16 @@
+a {
+  color: blue;
+  text-decoration: none;
+  border: 1px solid blue;
+  border-radius: 100px;
+  display: inline-block;
+  padding: 5px 15px;
+  text-align: center;
+  margin: 5px 10px; /* Adds space between links */
+  box-sizing: border-box; /* Ensures padding doesn't add to width */
+  width: calc(100% / 3 - 20px); /* Makes links evenly spaced in the row */
+  }
+
+a.st-active {
+  background-color: silver;
+  }
